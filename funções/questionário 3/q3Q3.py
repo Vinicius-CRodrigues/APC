@@ -1,0 +1,1 @@
+deriva = lambda f, h = 1e-5: lambda x: (f(x + h) - f(x - h)) / (2 * h)
