@@ -1,6 +1,6 @@
 # Fundamentos de Programação
 
-Este repositório reúne códigos, exercícios e exemplos desenvolvidos na disciplina **Fundamentos de Programação**.
+Este repositório reúne códigos, exercícios e exemplos desenvolvidos na disciplina **Algoritmos e programação de computadores**.
 
 O foco da disciplina é ensinar como criar algoritmos e programas de forma correta, organizada e eficiente.
 
