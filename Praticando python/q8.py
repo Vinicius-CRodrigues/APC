@@ -1,3 +1,8 @@
+'''
+Ana precisa de um programa simples para gerenciar suas tarefas diárias. Ela quer poder adicionar, visualizar e remover tarefas de uma lista.
+
+Crie um programa com um menu interativo que permita ao usuário adicionar, visualizar e remover tarefas. Use uma lista para armazenar as tarefas.
+'''
 lista_tarefas = []
 
 def adicionar_tarefa(tarefa):
@@ -33,10 +38,12 @@ while True:
         case 2:
             visualizar_tarefas()
         case 3: 
-            tarefa = input('Digite a tarefa a ser removida: ')
-            remover_tarefa(tarefa)
-            print('Tarefa removida!')
-
+            try:
+                tarefa = input('Digite a tarefa a ser removida: ')
+                remover_tarefa(tarefa)
+                print('Tarefa removida!')
+            except:
+                print('Erro: Tarefa não encontrada!')
     if opcao == 4:
         print('Saindo do gerenciador de tarefas. Até mais!')
         break
