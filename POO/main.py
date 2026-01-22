@@ -1,5 +1,6 @@
 from classes import Computador, Tela
 
+# Aqui é aonde crio os objetos
 host = Computador('lenovo', '8gb', '1tb', 'i5')
 host.ligar()
 host.exibir_configurações()

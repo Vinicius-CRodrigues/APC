@@ -10,7 +10,8 @@ class Computador:
         self.memoria_ram = memoria_ram
         self.armazenamento = armazenamento
         self.processador = processador
-    
+
+    # Construo métodos para essa classe.
     def ligar(self):
         print('Ligando o computador...')
     
@@ -42,11 +43,6 @@ class Tela:
         print(f'Resolução: {self.resolução}')
         print(f'Marca: {self.marca}')
 
-
-
-
-# Para instanciar uma classe, nós criamos uma variável para ela:
-# Cada variável criada é individual, porém elas tem a mesma característica que são passadas nas classes.
 
 
 
