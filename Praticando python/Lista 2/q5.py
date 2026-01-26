@@ -13,7 +13,7 @@ novo_convidado = input('Digite o nome do novo convidado: ')
 
 posicao = int(input('Digite a posição na qual deseja inserir o convidado: '))
 
-lista_convidados[posicao - 1] = novo_convidado
+lista_convidados.insert(posicao - 1, novo_convidado )
 
 print('Lista atualizada de convidados: ', lista_convidados)
 
